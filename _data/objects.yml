@@ -1,0 +1,24 @@
+- title: Sävsjö ,  Graningevägen 5 ,  Sävsjö
+  date: 2014-03-11
+  marketvalue: 150000
+  taxvalue: 163000
+  valuediff: -13000
+
+- title: Uddevalla ,  Lögås 129 ,  Uddevalla  OBS! Ändrat marknadsvärde
+  date: 2014-03-11
+  marketvalue: 350000
+  taxvalue: 55900
+  valuediff: 294100
+
+- title: Strömsnäsbruk  ,  Järnvägsgatan 67 ,  Strömnäsbruk
+  date: 2014-03-11
+  marketvalue: 150000
+  taxvalue: 419000
+  valuediff: -269000
+
+- title: Helsingborg ,  Michael Löfmans Gata 6, 6B ,  Helsingborg
+  date: 2014-03-11
+  marketvalue: 27000000
+  taxvalue: 16462000
+  valuediff: 10538000
+
