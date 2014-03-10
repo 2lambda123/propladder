@@ -3,16 +3,43 @@ layout: default
 title: Your New Jekyll Site
 ---
 
+
+
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+  <h1>Fynda ditt drömhus!</h1>
+  <p>
+  Hos Kronofogden hittar du utmätta fastigheter som regelbundet auktioneras ut på exekutiv auktion.
+  Inte alla objekt är fynd, men det är där denna sajt kommer in i bilden -
+  vi hjälper dig att hitta guldkornen!
+  </p>
+
+  <p>
+  Men hjälp av denna sajt kommer du kanske att hitta huset du alltid drömt om eller
+  gården du inte visste att du hade råd med?
+  </p>
+  
+  <p>
+  Lycka till!
+  </p>
+  
+  <h2>Veckas fynd</h2>
+  {% assign fynd = site.data.objects_by_diffvalue[0] %}
+  {{ fynd.title }}
+  
+  
+  <a href= "fynd.html">Objekt ordnade efter fyndpotential</a>
+  <a href= "pris.html">Objekt ordnade efter pris</a>
+  <a href= "tid.html">Auktioner i kalenderordning</a>
+  
+<!--
+    <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+-->
   
-  
-  <h2>By date</h2>
+  <h2>Auktioner i kalenderordning</h2>
   <ul>
       {% for item in site.data.objects_by_date %}
       <li>
@@ -26,7 +53,7 @@ title: Your New Jekyll Site
   </ul>
 
 
-<h2>By market value</h2>
+<h2>Objekt ordnade efter pris</h2>
 <ul>
     {% for item in site.data.objects_by_marketvalue %}
     <li>
@@ -41,7 +68,7 @@ title: Your New Jekyll Site
 </ul>
 
 
-<h2>By diff value</h2>
+<h2>Objekt ordnade efter fyndpotential</h2>
 <ul>
     {% for item in site.data.objects_by_diffvalue %}
     <li>

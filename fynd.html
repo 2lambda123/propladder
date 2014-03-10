@@ -1,0 +1,32 @@
+---
+layout: default
+title: Objekt ordnade efter fyndpotential
+---
+
+
+
+<div id="home">
+  <h1>Objekt ordnade efter fyndpotential</h1>
+  <p>
+    Här listas alla fastigheter baserat på skillnaden mellan marknadsvärde och taxeringsvärde. Desto lägre marknadsvärde i förhållande till taxeringsvärdet - desto större fyndpotential!
+    
+    Här har vi gjort grovjobbet åt dig. Du kan börja leta efter din drömfastighet
+    bland de som troligen har det bästa priset.
+  </p>
+  
+
+<h2>Objekt ordnade efter fyndpotential</h2>
+<ul>
+    {% for item in site.data.objects_by_diffvalue %}
+    <li>
+        {{ item.valuediff }} -
+        {{ item.date }}
+        <a href="{{item.url}}">{{ item.title }}</a>
+        Maknadsvärde: {{item.marketvalue}}
+        Taxeringsvärde: {{item.taxvalue}}
+        Diffvärde: {{item.valuediff}}
+    </li>
+    {% endfor %}
+</ul>
+
+</div>
