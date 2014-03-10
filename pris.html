@@ -1,0 +1,29 @@
+---
+layout: default
+title: Objekt ordnade efter pris
+---
+
+
+
+<div id="home">
+  <h1>Objekt ordnade efter pris</h1>
+  <p>
+  Här har vi listat hus och fastigheter efter deras marknadsvärde, dvs utropspriset på Kronofogdens exekutiva auktion.
+  Har du en begränsad budget för att köpa hus är det här du ska börja leta.
+  </p>
+ 
+
+<ul>
+    {% for item in site.data.objects_by_marketvalue %}
+    <li>
+        {{ item.marketvalue }} -
+        {{ item.date }}
+        <a href="{{item.url}}">{{ item.title }}</a>
+        Maknadsvärde: {{item.marketvalue}}
+        Taxeringsvärde: {{item.taxvalue}}
+        Diffvärde: {{item.valuediff}}
+    </li>
+    {% endfor %}
+</ul>
+
+</div>

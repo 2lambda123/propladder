@@ -1,0 +1,26 @@
+---
+layout: default
+title: Auktioner i kalenderordning
+---
+
+
+
+<div id="home">
+  <h1>Auktioner i kalenderordning</h1>
+  <p>
+  Om du letar efter Kronodogdens exekutiva auktioner som kommer att inträffa inom kort är detta listan för dig.
+  </p>
+  
+    <ul>
+      {% for item in site.data.objects_by_date %}
+      <li>
+          {{ item.date }} -
+          <a href="{{item.url}}">{{ item.title }}</a>
+          Maknadsvärde: {{item.marketvalue}}
+          Taxeringsvärde: {{item.taxvalue}}
+          Diffvärde: {{item.valuediff}}
+      </li>
+      {% endfor %}
+  </ul>
+
+</div>
