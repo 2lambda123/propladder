@@ -12,7 +12,7 @@ title: Your New Jekyll Site
   </ul>
   
   
-  
+  <h2>By date</h2>
   <ul>
       {% for item in site.data.objects_by_date %}
       <li>
@@ -20,4 +20,25 @@ title: Your New Jekyll Site
       </li>
       {% endfor %}
   </ul>
+
+
+<h2>By market value</h2>
+<ul>
+    {% for item in site.data.objects_by_marketvalue %}
+    <li>
+        {{ item.date }} - {{ item.title }}
+    </li>
+    {% endfor %}
+</ul>
+
+
+<h2>By diff value</h2>
+<ul>
+    {% for item in site.data.objects_by_diffvalue %}
+    <li>
+        {{ item.date }} - {{ item.title }}
+    </li>
+    {% endfor %}
+</ul>
+
 </div>
