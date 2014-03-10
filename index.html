@@ -16,7 +16,11 @@ title: Your New Jekyll Site
   <ul>
       {% for item in site.data.objects_by_date %}
       <li>
-          {{ item.date }} - {{ item.title }}
+          {{ item.date }} -
+          <a href="{{item.url}}">{{ item.title }}</a>
+          Maknadsvärde: {{item.marketvalue}}
+          Taxeringsvärde: {{item.taxvalue}}
+          Diffvärde: {{item.diffvalue}}
       </li>
       {% endfor %}
   </ul>
@@ -26,7 +30,11 @@ title: Your New Jekyll Site
 <ul>
     {% for item in site.data.objects_by_marketvalue %}
     <li>
-        {{ item.date }} - {{ item.title }}
+        {{ item.date }} -
+        <a href="{{item.url}}">{{ item.title }}</a>
+        Maknadsvärde: {{item.marketvalue}}
+        Taxeringsvärde: {{item.taxvalue}}
+        Diffvärde: {{item.diffvalue}}
     </li>
     {% endfor %}
 </ul>
@@ -36,7 +44,11 @@ title: Your New Jekyll Site
 <ul>
     {% for item in site.data.objects_by_diffvalue %}
     <li>
-        {{ item.date }} - {{ item.title }}
+        {{ item.date }} -
+        <a href="{{item.url}}">{{ item.title }}</a>
+        Maknadsvärde: {{item.marketvalue}}
+        Taxeringsvärde: {{item.taxvalue}}
+        Diffvärde: {{item.diffvalue}}
     </li>
     {% endfor %}
 </ul>
