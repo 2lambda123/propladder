@@ -30,7 +30,8 @@ title: Your New Jekyll Site
 <ul>
     {% for item in site.data.objects_by_marketvalue %}
     <li>
-        {{ item.date }} -
+        {{ item.marketvalue }} -
+        {{ item.date }}
         <a href="{{item.url}}">{{ item.title }}</a>
         Maknadsvärde: {{item.marketvalue}}
         Taxeringsvärde: {{item.taxvalue}}
@@ -44,7 +45,8 @@ title: Your New Jekyll Site
 <ul>
     {% for item in site.data.objects_by_diffvalue %}
     <li>
-        {{ item.date }} -
+        {{ item.valuediff }} -
+        {{ item.date }}
         <a href="{{item.url}}">{{ item.title }}</a>
         Maknadsvärde: {{item.marketvalue}}
         Taxeringsvärde: {{item.taxvalue}}
