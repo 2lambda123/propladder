@@ -10,4 +10,14 @@ title: Your New Jekyll Site
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  
+  
+  
+  <ul>
+      {% for item in site.data.objects_by_date %}
+      <li>
+          {{ item.date }} - {{ item.title }}
+      </li>
+      {% endfor %}
+  </ul>
 </div>
