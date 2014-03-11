@@ -55,11 +55,12 @@
 
             <li>
                 {% assign sz = site.data.objects_by_marketvalue | size %}
-                sz: {{sz}}
+                {% assign dyr = site.data.objects_by_marketvalue | last %}
+                {% assign titleWords = dyr.title | split: ', ' %}
                 
                 <a href="#" rel="1"> <img src="images/f_thumb2.png" alt=""> <span class="left"> Dyrast<br />
                 2009 year<br />
-                3500 sq.ft </span> <span class="right"> {{ msort[sz].title }} <br />
+                3500 sq.ft </span> <span class="right"> {{ titleWords.first }} <br />
                     5 beds<br />
                     3 baths </span> </a> </li>
  
