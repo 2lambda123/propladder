@@ -22,7 +22,7 @@ html, body {
 	position:relative;
 }
 header {
-	height:325px;
+	height:175px;
 	overflow:hidden;
 	border-bottom:2px solid #2a2a2a;
 	background:url(../images/header-pattern.gif) 50% 0 #1d1d1d;
