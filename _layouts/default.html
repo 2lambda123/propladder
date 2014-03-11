@@ -67,7 +67,7 @@
  
  
             <li>
-                {% assign item = site.data.objects_by_marketvalue | last %}
+                {% assign item = site.data.objects_by_marketvalue | first %}
                 {% assign titleWords = item.title | split: ', ' %}
                 
                 <a href="#" rel="2"> <img src="images/f_thumb3.png" alt="">
