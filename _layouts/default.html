@@ -37,45 +37,58 @@
     </nav>
 
     <div id="faded">
-        <div class="rap"> <a href="#"><img src="images/big-img1.jpg" alt="" width="571" height="398"></a> <a href="#"><img src="images/big-img2.jpg" alt="" width="571" height="398"></a> <a href="#"><img src="images/big-img3.jpg" alt="" width="571" height="398"></a> </div>
+        {% assign fynd = site.data.objects_by_diffvalue[0] %}
+        {% assign dyr = site.data.objects_by_marketvalue | last %}
+        {% assign billig = site.data.objects_by_marketvalue | first %}
+        
+        
+        <div class="rap">
+            <a href="{{fynd.url}}"><img src="{{fynd.imgUrl}}" alt="" width="571" height="398"></a>
+            <a href="{{dyr.url}}"><img src="{{dyr.imgUrl}}" alt="" width="571" height="398"></a>
+            <a href="{{billig.url}}"><img src="{{billig.imgUrl}}" alt="" width="571" height="398"></a>
+
+<!--
+            <a href="#"><img src="images/big-img1.jpg" alt="" width="571" height="398"></a>
+            <a href="#"><img src="images/big-img2.jpg" alt="" width="571" height="398"></a>
+            <a href="#"><img src="images/big-img3.jpg" alt="" width="571" height="398"></a>
+ -->
+        </div>
         <ul class="pagination">
             <li>
 
-                {% assign item = site.data.objects_by_diffvalue[0] %}
-                {% assign titleWords = item.title | split: ', ' %}
-                
-                <a href="#" rel="0"> <img src="images/f_thumb1.png" alt="">
+
+                {% assign titleWords = fynd.title | split: ', ' %}
+                <a href="{{fynd.url}}" rel="0"> <img src="{{fynd.imgUrl}}" alt="" width="93" height="84">
                 <span class="left"> Fynd<br />
 
                 Pris<br />
                  </span>
                 <span class="right"> {{ titleWords.first }}<br />
-                    {{item.marketvalue}}<br />
+                    {{fynd.marketvalue}}<br />
                      </span> </a> </li>
 
             <li>
-                {% assign item = site.data.objects_by_marketvalue | last %}
-                {% assign titleWords = item.title | split: ', ' %}
                 
-                <a href="#" rel="1"> <img src="images/f_thumb2.png" alt="">
+                {% assign titleWords = dyr.title | split: ', ' %}
+                <a href="{{dyr.url}}" rel="0"> <img src="{{dyr.imgUrl}}" alt="" width="93" height="84">
+
                     <span class="left"> Dyrast<br />
                         Pris<br />
                     </span>
                     <span class="right"> {{ titleWords.first }}<br />
-                        {{item.marketvalue}}<br />
+                        {{dyr.marketvalue}}<br />
                     </span> </a> </li>
  
  
             <li>
-                {% assign item = site.data.objects_by_marketvalue | first %}
-                {% assign titleWords = item.title | split: ', ' %}
-                
-                <a href="#" rel="2"> <img src="images/f_thumb3.png" alt="">
+               
+                {% assign titleWords = billig.title | split: ', ' %}
+                <a href="{{billig.url}}" rel="0"> <img src="{{billig.imgUrl}}" alt="" width="93" height="84">
                     <span class="left"> Billigast<br />
                         Pris<br />
                     </span>
                     <span class="right"> {{ titleWords.first }}<br />
-                        {{item.marketvalue}}<br />
+                        {{billig.marketvalue}}<br />
                     </span> </a> </li>
         </ul>
         
