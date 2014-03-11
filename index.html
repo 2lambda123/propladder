@@ -11,7 +11,7 @@ title: Fynda ditt drömhus
           <!--
           <figure><img src="images/2page-img1.jpg" alt=""></figure>
            -->
-
+            <img src="images/2page-img1.jpg" alt="" width="450" >
             <h3>Välkommen till oss!</h3>
             
             <p>På denna sajt httar du alla Kronofogdens utmätta fastigheter som regelbundet säljs på exekutiv auktion.
@@ -27,16 +27,16 @@ title: Fynda ditt drömhus
     </article>
 
     <article>
-    <h2>Veckans fynd</h2>
+    <h2>Fynd just nu</h2>
     {% assign fynd = site.data.objects_by_diffvalue[0] %}
     
     <div class="wrapper">
-        <h3>{{ fynd.title }}</h3>
+        <h3><a href="{{fynd.url}}">{{ fynd.title }}</a></h3>
         <figure><img src="images/2page-img1.jpg" alt=""></figure>
         <p>
-        Marknadsvärde: {{fynd.marketvalue }}<br/>
-        Taxeringsvärde: {{fynd.taxvalue}} <br/>
-        Diffvärde: {{fynd.valuediff}}
+        Marknadsvärde: {{fynd.marketvalue }} kr<br/>
+        Taxeringsvärde: {{fynd.taxvalue}} kr<br/>
+        Diffvärde: {{fynd.valuediff}} kr
         </p>
         
     </div>
