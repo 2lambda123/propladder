@@ -1,15 +1,11 @@
-- title: Strömsnäsbruk  ,  Järnvägsgatan 67 ,  Strömnäsbruk
-  date: 2014-03-11
-  marketvalue: 150000
-  taxvalue: 419000
-  url: http://www.kronofogden.se/29174.html
-  valuediff: -269000
-
 - title: Sävsjö ,  Graningevägen 5 ,  Sävsjö
   date: 2014-03-11
   marketvalue: 150000
   taxvalue: 163000
   url: http://www.kronofogden.se/28308.html
+  imgurl: http://www.kronofogden.se/images/18.3ad14b751432a2e49d143af/1390487354689/F-3505-13A.jpg
+  imgwidth: 
+  imgheight: 
   valuediff: -13000
 
 - title: Uddevalla ,  Lögås 129 ,  Uddevalla  OBS! Ändrat marknadsvärde
@@ -17,5 +13,8 @@
   marketvalue: 350000
   taxvalue: 55900
   url: http://www.kronofogden.se/28282.html
+  imgurl: http://www.kronofogden.se/images/18.3ad14b751432a2e49d141ac/1390480234984/F-3451-13A.jpg
+  imgwidth: 
+  imgheight: 
   valuediff: 294100
 
