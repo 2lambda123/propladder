@@ -1,29 +1,61 @@
 ---
 layout: default
-title: Objekt ordnade efter pris
+title: Fastigheter ordnade efter pris
 ---
 
 
 
-<div id="home">
-  <h1>Objekt ordnade efter pris</h1>
-  <p>
-  Här har vi listat hus och fastigheter efter deras marknadsvärde, dvs utropspriset på Kronofogdens exekutiva auktion.
-  Har du en begränsad budget för att köpa hus är det här du ska börja leta.
-  </p>
- 
 
-<ul>
-    {% for item in site.data.objects_by_marketvalue %}
-    <li>
-        {{ item.marketvalue }} -
-        {{ item.date }}
-        <a href="{{item.url}}">{{ item.title }}</a>
-        Maknadsvärde: {{item.marketvalue}}
-        Taxeringsvärde: {{item.taxvalue}}
-        Diffvärde: {{item.valuediff}}
-    </li>
+
+
+<section id="mainContent" class="grid_10">
+    <article>
+        <h2>Fastigheter ordnade efter pris</h2>
+        <div class="wrapper">
+            <p>
+            Här har vi listat hus och fastigheter efter deras marknadsvärde, dvs utropspriset på Kronofogdens exekutiva auktion.
+            Har du en begränsad budget för att köpa hus är det här du ska börja leta.
+            </p>
+            
+        </div>
+    </article>
+    
+    
+    {% for fynd in site.data.objects_by_marketvalue %}
+    <article>
+        <div class="wrapper">
+            <figure><img src="{{fynd.imgurl}}" alt="" width="161" height="132"></figure>
+            <h3><a href="{{fynd.url}}">{{ fynd.title }}</a></h3>
+            <p>
+            Marknadsvärde: {{fynd.marketvalue }} kr<br/>
+            Diffvärde: {{fynd.valuediff}} kr <br/>
+            Taxeringsvärde: {{fynd.taxvalue}} kr<br/>
+            </p>
+            
+        </div>
+    </article>
     {% endfor %}
-</ul>
+    
+    
+</section>
 
-</div>
+
+
+<aside class="grid_6">
+    <div class="prefix_1">
+        <article>
+            <div class="box">
+                <h2>Reklam</h2>
+                <h3><a href="#">Sed ut perspiciatis unde</a></h3>
+                <p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                <p>Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna.</p>
+            </div>
+        </article>
+        
+    </div>
+</aside>
+
+
+
+
+
