@@ -41,37 +41,42 @@
         <ul class="pagination">
             <li>
 
-                {% assign fynd = site.data.objects_by_diffvalue[0] %}
-                {% assign titleWords = fynd.title | split: ', ' %}
+                {% assign item = site.data.objects_by_diffvalue[0] %}
+                {% assign titleWords = item.title | split: ', ' %}
                 
                 <a href="#" rel="0"> <img src="images/f_thumb1.png" alt="">
                 <span class="left"> Fynd<br />
 
-                2007 year<br />
-                5000 sq.ft </span>
+                Pris<br />
+                 </span>
                 <span class="right"> {{ titleWords.first }}<br />
-                    3 beds<br />
-                    2 baths </span> </a> </li>
+                    {{item.marketvalue}}<br />
+                     </span> </a> </li>
 
             <li>
-                {% assign sz = site.data.objects_by_marketvalue | size %}
-                {% assign dyr = site.data.objects_by_marketvalue | last %}
-                {% assign titleWords = dyr.title | split: ', ' %}
+                {% assign item = site.data.objects_by_marketvalue | last %}
+                {% assign titleWords = item.title | split: ', ' %}
                 
-                <a href="#" rel="1"> <img src="images/f_thumb2.png" alt=""> <span class="left"> Dyrast<br />
-                2009 year<br />
-                3500 sq.ft </span> <span class="right"> {{ titleWords.first }} <br />
-                    5 beds<br />
-                    3 baths </span> </a> </li>
+                <a href="#" rel="1"> <img src="images/f_thumb2.png" alt="">
+                    <span class="left"> Dyrast<br />
+                        Pris<br />
+                    </span>
+                    <span class="right"> {{ titleWords.first }}<br />
+                        {{item.marketvalue}}<br />
+                    </span> </a> </li>
  
  
             <li>
+                {% assign item = site.data.objects_by_marketvalue | last %}
+                {% assign titleWords = item.title | split: ', ' %}
                 
-                <a href="#" rel="2"> <img src="images/f_thumb3.png" alt=""> <span class="left"> Billigast<br />
-                2010 year<br />
-                4200 sq.ft </span> <span class="right"> Brick, glass<br />
-                    4 beds<br />
-                    3 baths </span> </a> </li>
+                <a href="#" rel="2"> <img src="images/f_thumb3.png" alt="">
+                    <span class="left"> Billigast<br />
+                        Pris<br />
+                    </span>
+                    <span class="right"> {{ titleWords.first }}<br />
+                        {{item.marketvalue}}<br />
+                    </span> </a> </li>
         </ul>
         
 <!--
