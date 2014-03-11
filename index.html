@@ -1,12 +1,50 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Fynda ditt drömhus
 ---
+
+
+<section id="mainContent" class="grid_10">
+    <article>
+        <h2>Fynda ditt drömhus!</h2>
+        <div class="wrapper">
+            <figure><img src="images/2page-img1.jpg" alt=""></figure>
+            <p>Hos Kronofogden hittar du utmätta fastigheter som regelbundet auktioneras ut på exekutiv auktion.
+            Inte alla objekt är fynd, men det är där denna sajt kommer in i bilden -
+            vi hjälper dig att hitta guldkornen!
+            Men hjälp av denna sajt kommer du kanske att hitta huset du alltid drömt om eller
+            gården du inte visste att du hade råd med?
+            <br/>
+            Lycka till!
+            </p>
+            
+        </div>
+    </article>
+
+
+</section>
+
+
+
+<aside class="grid_6">
+    <div class="prefix_1">
+        <article>
+            <div class="box">
+                <h2>Reklam</h2>
+                <h3><a href="#">Sed ut perspiciatis unde</a></h3>
+                <p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                <p>Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna.</p>
+            </div>
+        </article>
+
+    </div>
+</aside>
 
 
 
 <div id="home">
-  <h1>Fynda ditt drömhus!</h1>
+<!--
+    <h1>Fynda ditt drömhus!</h1>
   <p>
   Hos Kronofogden hittar du utmätta fastigheter som regelbundet auktioneras ut på exekutiv auktion.
   Inte alla objekt är fynd, men det är där denna sajt kommer in i bilden -
@@ -21,7 +59,7 @@ title: Your New Jekyll Site
   <p>
   Lycka till!
   </p>
-  
+  -->
   <h2>Veckas fynd</h2>
   {% assign fynd = site.data.objects_by_diffvalue[0] %}
   {{ fynd.title }}
