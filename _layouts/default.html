@@ -54,11 +54,11 @@
                     2 baths </span> </a> </li>
 
             <li>
-                {% assign msort = site.data.objects_by_marketvalue | sort: 'marketvalue' %}
-                {{ msort[0].title }}
+                {% assign size = site.data.objects_by_marketvalue | size %}
+                
                 <a href="#" rel="1"> <img src="images/f_thumb2.png" alt=""> <span class="left"> Dyrast<br />
                 2009 year<br />
-                3500 sq.ft </span> <span class="right"> {{ msort[0].title }} <br />
+                3500 sq.ft </span> <span class="right"> {{ msort[size].title }} <br />
                     5 beds<br />
                     3 baths </span> </a> </li>
  
