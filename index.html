@@ -30,12 +30,12 @@ title: Fynda ditt drömhus
     {% assign fynd = site.data.objects_by_diffvalue[0] %}
     
     <div class="wrapper">
+        <figure><img src="{{fynd.imgurl}}" alt="" width="161" height="132"></figure>
         <h3><a href="{{fynd.url}}">{{ fynd.title }}</a></h3>
-        <figure><img src="images/2page-img1.jpg" alt=""></figure>
         <p>
+        Diffvärde: {{fynd.valuediff}} kr
         Marknadsvärde: {{fynd.marketvalue }} kr<br/>
         Taxeringsvärde: {{fynd.taxvalue}} kr<br/>
-        Diffvärde: {{fynd.valuediff}} kr
         </p>
         
     </div>
