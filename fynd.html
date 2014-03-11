@@ -1,25 +1,77 @@
 ---
 layout: default
-title: Objekt ordnade efter fyndpotential
+title: Fastigheter ordnade efter fyndpotential
 ---
 
 
 
-<div id="home">
-  <h1>Objekt ordnade efter fyndpotential</h1>
-  <p>
-    Här listas alla fastigheter baserat på skillnaden mellan marknadsvärde och taxeringsvärde. Desto lägre marknadsvärde i förhållande till taxeringsvärdet - desto större fyndpotential!
-    
-    Här har vi gjort grovjobbet åt dig. Du kan börja leta efter din drömfastighet
-    bland de som troligen har det bästa priset.
-  </p>
-  
+<section id="mainContent" class="grid_10">
+    <article>
+        <h2>Fastigheter ordnade efter fyndpotential</h2>
+        <div class="wrapper">
+            <p>
+            Här listas alla fastigheter baserat på skillnaden mellan marknadsvärde och taxeringsvärde. Desto lägre marknadsvärde i förhållande till taxeringsvärdet - desto större fyndpotential!
+            
+            Här har vi gjort grovjobbet åt dig. Du kan börja leta efter din drömfastighet
+            bland de som troligen har det bästa priset.
+            </p>
+            
+        </div>
+    </article>
 
-<h2>Objekt ordnade efter fyndpotential</h2>
+
+  {% for fynd in site.data.objects_by_diffvalue %}
+    <article>
+        <div class="wrapper">
+            <figure><img src="{{fynd.imgurl}}" alt="" width="161" height="132"></figure>
+            <h3><a href="{{fynd.url}}">{{ fynd.title }}</a></h3>
+            <p>
+            Diffvärde: {{fynd.valuediff}} kr <br/>
+            Marknadsvärde: {{fynd.marketvalue }} kr<br/>
+            Taxeringsvärde: {{fynd.taxvalue}} kr<br/>
+                       </p>
+            
+        </div>
+    </article>
+    {% endfor %}
+
+    
+</section>
+
+
+
+<aside class="grid_6">
+    <div class="prefix_1">
+        <article>
+            <div class="box">
+                <h2>Reklam</h2>
+                <h3><a href="#">Sed ut perspiciatis unde</a></h3>
+                <p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                <p>Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna.</p>
+            </div>
+        </article>
+        
+    </div>
+</aside>
+
+
+
+
+
+
+
+
+<!--
+
+
+<h2>Fastigheter ordnade efter fyndpotential</h2>
+
+
+  
 <ul>
     {% for item in site.data.objects_by_diffvalue %}
     <li>
-        {{ item.valuediff }} -
+        {{ item.valuediff }} kr
         {{ item.date }}
         <a href="{{item.url}}">{{ item.title }}</a>
         Maknadsvärde: {{item.marketvalue}}
@@ -28,5 +80,5 @@ title: Objekt ordnade efter fyndpotential
     </li>
     {% endfor %}
 </ul>
-
-</div>
+ 
+ -->
