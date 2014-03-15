@@ -344,11 +344,11 @@ header nav ul li a:hover, header nav ul li a.current {
 }
 #faded ul.pagination li a span.left {
 	float:left;
-	width:100px;
+	width:70px;
 }
 #faded ul.pagination li a span.right {
 	float:left;
-	width:80px;
+	width:110px;
 }
 #faded .extra-banner {
 	position:absolute;
