@@ -65,7 +65,7 @@
                 Pris<br />
                  </span>
                 <span class="right"> {{ titleWords.first }}<br />
-                    {{fynd.marketvalue}} kr<br />
+                    {{fynd.marketvalue | money_without_currency}} kr<br />
                      </span> </a> </li>
 
             <li>
@@ -77,7 +77,7 @@
                         Pris<br />
                     </span>
                     <span class="right"> {{ titleWords.first }}<br />
-                        {{dyr.marketvalue}} kr<br />
+                        {{dyr.marketvalue | money_without_currency}} kr<br />
                     </span> </a> </li>
  
  
@@ -89,7 +89,7 @@
                         Pris<br />
                     </span>
                     <span class="right"> {{ titleWords.first }}<br />
-                        {{billig.marketvalue}} kr<br />
+                        {{billig.marketvalue | money_without_currency}} kr<br />
                     </span> </a> </li>
         </ul>
         
