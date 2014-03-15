@@ -21,6 +21,14 @@ html, body {
 	font-size:.75em;
 	position:relative;
 }
+
+.sub-page-header {
+	height:225px;
+	overflow:hidden;
+	border-bottom:2px solid #2a2a2a;
+	background:url(../images/header-pattern.gif) 50% 0 #1d1d1d;
+}
+
 header {
 	height:625px;
 	overflow:hidden;
