@@ -83,7 +83,8 @@
             <li>
                 
                 {% assign titleWords = dyr.title | split: ', ' %}
-                <a href="{{dyr.url}}" rel="0"> <img src="{{dyr.imgurl}}" alt="" width="93" height="84">
+                <a href="{{dyr.url}}" rel="0" onClick="window.location='{{dyr.url}}';"> 
+                <img src="{{dyr.imgurl}}" alt="" width="93" height="84">
 
                     <span class="left"> Dyrast<br />
                         Pris<br />
@@ -96,7 +97,8 @@
             <li>
                
                 {% assign titleWords = billig.title | split: ', ' %}
-                <a href="{{billig.url}}" rel="0"> <img src="{{billig.imgurl}}" alt="" width="93" height="84">
+                <a href="{{billig.url}}" rel="0" onClick="window.location='{{billig.url}}';"> 
+                <img src="{{billig.imgurl}}" alt="" width="93" height="84">
                     <span class="left"> Billigast<br />
                         Pris<br />
                     </span>
