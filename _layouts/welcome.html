@@ -69,14 +69,16 @@
 
 
                 {% assign titleWords = fynd.title | split: ', ' %}
-                <a href="{{fynd.url}}" rel="0" onClick="alert('hej');"> <img src="{{fynd.imgurl}}" alt="" width="93" height="84">
-                <span class="left"> Fynd<br />
-
-                Pris<br />
-                 </span>
-                <span class="right"> {{ titleWords.first }}<br />
-                    {{fynd.marketvalue }}<br />
-                     </span> </a> </li>
+                <a href="{{fynd.url}}" rel="0" onClick="window.location='{{fynd.url}}';"> 
+                	<img src="{{fynd.imgurl}}" alt="" width="93" height="84">
+                	<span class="left"> Fynd<br />
+						 Pris<br />
+                 	</span>
+                	<span class="right"> {{ titleWords.first }}<br />
+                    	{{fynd.marketvalue }}<br />
+                     </span> 
+            	</a> 
+            </li>
 
             <li>
                 
