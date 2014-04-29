@@ -10,9 +10,18 @@ title: Fastighet
 -->
 
 <script>
+ var items = [];
+ var item;
+ 
+ {% for obj in site.data.objects_by_date %}
+   item = [ "{{ obj.title }}", "{{fynd.url}}"]
+   items.push(item);
+ {% endfor %}
+
 
 var i = window.location.search.replace( "?", "" );
 alert("found idx=" + i);
+alert("title=" + items[i].title);
 
 </script>
 
