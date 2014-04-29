@@ -15,14 +15,16 @@ title: Fastighet
  var z;
  
  {% for obj in site.data.objects_by_date %}
-   z = [ "{{ obj.title }}", "{{obj.url}}"]
+   z = [ "{{ obj.title }}", "{{obj.url}}"
+   , "{{site.geocodes[forloop.index].lat }}" 
+   ]
    items.push(z);
  {% endfor %}
 
 
 var i = window.location.search.replace( "?", "" );
 //alert("found idx=" + i);
-alert("title=" + items[i][0] + " == " + items[i][1]);
+alert("title=" + items[i][0] + " == " + items[i][2]);
 
 </script>
 
