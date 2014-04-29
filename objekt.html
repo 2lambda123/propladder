@@ -7,6 +7,7 @@ title: Fastighet
 - skriv ut all data i en JS struktur
 - läs in parameter från URL
 - leta upp rätt data o skriv ut på sidan
+         , "{ { site.geocodes[forloop.index].lat } } " 
 -->
 
 <script>
@@ -14,8 +15,7 @@ title: Fastighet
  var z;
  
  {% for obj in site.data.objects_by_date %}
-   z = [ "{{ obj.title }}", "{{obj.url}}"
-   	   ]
+   z = [ "{{ obj.title }}", "{{obj.url}}"]
    a.push(z);
  {% endfor %}
 
@@ -26,6 +26,7 @@ alert("title=" + a[i][0] + " == " + a[i][1]);
 
 </script>
 
+<!--
 <section id="mainContent" class="grid_10">
     <article>
         <h2>Fastigheter ordnade efter fyndpotential</h2>
@@ -58,4 +59,4 @@ alert("title=" + a[i][0] + " == " + a[i][1]);
 
     
 </section>
-
+-->
