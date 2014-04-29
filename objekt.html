@@ -14,8 +14,7 @@ title: Fastighet
  var z;
  
  {% for obj in site.data.objects_by_date %}
-   z = [ "{{ obj.title }}", "{{obj.url}}", 
-   			"{{site.geocodes[forloop.index].lat}}" 
+   z = [ "{{ obj.title }}", "{{obj.url}}"
    	   ]
    a.push(z);
  {% endfor %}
