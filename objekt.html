@@ -90,11 +90,14 @@ maps: sverige, regionalt, lokalt, street view
           center: new google.maps.LatLng(60,17),
           zoom: 3,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
+          disableDefaultUI : true
+          /*
           mapTypeControl: false,
           panControl: false,
           rotateControl: false,
           scaleControl: false,
           scrollwheel: false
+          */
         }
         var map = new google.maps.Map(map_canvas, map_options)
         
