@@ -23,7 +23,7 @@ title: Fastighet
  {% for obj in site.data.objects_by_date %}
   
    z = [ "{{ obj.title }}", "{{obj.url}}"
-   , "{{site.data.geocodes[0].lat }}", "{{site.data.geocodes[0].lng }}" 
+   , "{{site.data.geocodes[forloop.index].lat }}", "{{site.data.geocodes[forloop.index].lng }}" 
    ]
    items.push(z);
  {% endfor %}
@@ -82,8 +82,8 @@ var i = window.location.search.replace( "?", "" );
         var map_canvas = document.getElementById('map_canvas');
         var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
         var map_options = {
-          center: myLatlng,
-          zoom: 4,
+          center: new google.maps.LatLng(59,18),
+          zoom: 3,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options)
