@@ -78,12 +78,21 @@ var i = window.location.search.replace( "?", "" );
 	<script>
       function initialize() {
         var map_canvas = document.getElementById('map_canvas');
+        var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
         var map_options = {
-          center: new google.maps.LatLng(items[i][2], items[i][3]),
-          zoom: 8,
+          center: myLatlng
+          zoom: 4,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options)
+        
+       
+        var marker = new google.maps.Marker({
+           position: myLatlng,
+           map: map,
+           title: 'Hello World!'
+        });
+   
       }
       initialize();
       //google.maps.event.addDomListener(window, 'load', initialize);
