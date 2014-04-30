@@ -77,14 +77,24 @@ var i = window.location.search.replace( "?", "" );
 </section>
 -->
 
+<!--
+maps: sverige, regionalt, lokalt, street view
+
+-->
+
 	<script>
       function initialize() {
         var map_canvas = document.getElementById('map_canvas');
         var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
         var map_options = {
-          center: new google.maps.LatLng(59,18),
+          center: new google.maps.LatLng(60,17),
           zoom: 3,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          mapTypeControl: false,
+          panControl: false,
+          rotateControl: false,
+          scaleControl: false,
+          scrollwheel: false
         }
         var map = new google.maps.Map(map_canvas, map_options)
         
@@ -92,7 +102,7 @@ var i = window.location.search.replace( "?", "" );
         var marker = new google.maps.Marker({
            position: myLatlng,
            map: map,
-           title: 'Hello World!'
+           title: 'items[i][0]'
         });
    
       }
