@@ -87,19 +87,17 @@ maps: sverige, regionalt, lokalt, street view
         var map_canvas = document.getElementById('map_canvas');
         var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
         var map_options = {
-          center: new google.maps.LatLng(60,17),
+          center: new google.maps.LatLng(60,16),
           zoom: 3,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           disableDefaultUI : true,
           draggable: false,
-          disableDoubleClickZoom: true
-          /*
+          disableDoubleClickZoom: true,
           mapTypeControl: false,
           panControl: false,
           rotateControl: false,
           scaleControl: false,
           scrollwheel: false
-          */
         }
         var map = new google.maps.Map(map_canvas, map_options)
         
