@@ -36,12 +36,16 @@ var i = window.location.search.replace( "?", "" );
 
 </script>
 
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
 
-<div id="swe_map_canvas" style="width: 100px;height: 200px;background-color: #CCC; float;"></div>
-<div id="reg_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; float;"></div>
-<div id="loc_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; float;"></div>
-<div id="street_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; float;"></div>
+		<div id="swe_map_canvas" style="width: 100px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+		<div id="reg_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+		<div id="loc_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+		<div id="street_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
 
+	</div>
+</div>
 
 <!--
 <section id="mainContent" class="grid_10">
@@ -103,7 +107,7 @@ maps: sverige, regionalt, lokalt, street view
         mapCanvas = document.getElementById('loc_map_canvas');
         myLatLng = new google.maps.LatLng(items[i][2], items[i][3]);
         centerLatLng = myLatLng; //new google.maps.LatLng(62,16);
-        myZoom = 8;
+        myZoom = 9;
         myTitle = items[i][0];		
 		showMap(mapCanvas, myLatLng, centerLatLng, myZoom, myTitle)
    
