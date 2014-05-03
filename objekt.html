@@ -87,40 +87,41 @@ maps: sverige, regionalt, lokalt, street view
       function initialize() {
 
 		// === swe ===
-        var map_canvas = document.getElementById('swe_map_canvas');
+        var mapCanvas = document.getElementById('swe_map_canvas');
         var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
         var centerLatLng = new google.maps.LatLng(62,16);
-        var myZoom = 3;
+        var myZoom = 4;
         var myTitle = items[i][0];
-
-        
-        var map_options = {
-          center: centerLatLng,
-          zoom: myZoom,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          disableDefaultUI : true,
-          draggable: false,
-          disableDoubleClickZoom: true,
-          mapTypeControl: false,
-          panControl: false,
-          rotateControl: false,
-          scaleControl: false,
-          scrollwheel: false
-        }        
-        var map = new google.maps.Map(map_canvas, map_options)
-		//map.setZoom(3);
-		       
-        var marker = new google.maps.Marker({
-           position: myLatlng,
-           map: map,
-           title: myTitle
-        });
-
-
+		
+		showMap(mapCanvas, myLatlng, centerLatLng, myZoom, myTitle)
    
       }
 
 
+		function showMap(mapCanvas, myLatlng, centerLatLng, myZoom, myTitle){
+        
+	        var map_options = {
+	          center: centerLatLng,
+	          zoom: myZoom,
+	          mapTypeId: google.maps.MapTypeId.ROADMAP,
+	          disableDefaultUI : true,
+	          draggable: false,
+	          disableDoubleClickZoom: true,
+	          mapTypeControl: false,
+	          panControl: false,
+	          rotateControl: false,
+	          scaleControl: false,
+	          scrollwheel: false
+	        }        
+	        var map = new google.maps.Map(mapCanvas, map_options)
+			//map.setZoom(3);
+		       
+	        var marker = new google.maps.Marker({
+	           position: myLatlng,
+	           map: map,
+	           title: myTitle
+	        });
+		}
       
       
       
