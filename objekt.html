@@ -37,9 +37,10 @@ var i = window.location.search.replace( "?", "" );
 </script>
 
 
-<div id="map_canvas" style="width: 100px;
-    height: 200px;
-    background-color: #CCC;"></div>
+<div id="swe_map_canvas" style="width: 100px;height: 200px;background-color: #CCC;"></div>
+<div id="reg_map_canvas" style="width: 100px;height: 200px;background-color: #CCC;"></div>
+<div id="loc_map_canvas" style="width: 100px;height: 200px;background-color: #CCC;"></div>
+<div id="street_map_canvas" style="width: 200px;height: 200px;background-color: #CCC;"></div>
 
 
 <!--
@@ -84,7 +85,7 @@ maps: sverige, regionalt, lokalt, street view
 
 	<script>
       function initialize() {
-        var map_canvas = document.getElementById('map_canvas');
+        var swe_map_canvas = document.getElementById('swe_map_canvas');
         var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
         var map_options = {
           center: new google.maps.LatLng(62,15),
@@ -98,14 +99,14 @@ maps: sverige, regionalt, lokalt, street view
           rotateControl: false,
           scaleControl: false,
           scrollwheel: false
-        }
-        var map = new google.maps.Map(map_canvas, map_options)
-        
-       
+        }        
+        var swe_map = new google.maps.Map(swe_map_canvas, map_options)
+		swe_map.setZoom(3);
+		       
         var marker = new google.maps.Marker({
            position: myLatlng,
-           map: map,
-           title: 'items[i][0]'
+           map: swe_map,
+           title: items[i][0]
         });
    
       }
