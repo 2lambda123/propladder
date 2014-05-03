@@ -85,11 +85,18 @@ maps: sverige, regionalt, lokalt, street view
 
 	<script>
       function initialize() {
-        var swe_map_canvas = document.getElementById('swe_map_canvas');
+
+		// === swe ===
+        var map_canvas = document.getElementById('swe_map_canvas');
         var myLatlng = new google.maps.LatLng(items[i][2], items[i][3]);
+        var centerLatLng = new google.maps.LatLng(62,15);
+        var myZoom = 5; //3;
+        var myTitle = items[i][0];
+
+        
         var map_options = {
-          center: new google.maps.LatLng(62,15),
-          zoom: 3,
+          center: centerLatLng,
+          zoom: myZoom,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           disableDefaultUI : true,
           draggable: false,
@@ -100,16 +107,27 @@ maps: sverige, regionalt, lokalt, street view
           scaleControl: false,
           scrollwheel: false
         }        
-        var swe_map = new google.maps.Map(swe_map_canvas, map_options)
-		swe_map.setZoom(3);
+        var map = new google.maps.Map(map_canvas, map_options)
+		//map.setZoom(3);
 		       
         var marker = new google.maps.Marker({
            position: myLatlng,
-           map: swe_map,
-           title: items[i][0]
+           map: map,
+           title: myTitle
         });
+
+
    
       }
+
+
+      
+      
+      
+      
+      
+      
+      
       initialize();
       //google.maps.event.addDomListener(window, 'load', initialize);
     </script>
