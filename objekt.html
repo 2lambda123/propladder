@@ -107,7 +107,14 @@ maps: sverige, regionalt, lokalt, street view
         mapCanvas = document.getElementById('loc_map_canvas');
         myLatLng = new google.maps.LatLng(items[i][2], items[i][3]);
         centerLatLng = myLatLng; //new google.maps.LatLng(62,16);
-        myZoom = 9;
+        myZoom = 10;
+        myTitle = items[i][0];		
+		showMap(mapCanvas, myLatLng, centerLatLng, myZoom, myTitle)
+   
+        mapCanvas = document.getElementById('street_map_canvas');
+        myLatLng = new google.maps.LatLng(items[i][2], items[i][3]);
+        centerLatLng = myLatLng; //new google.maps.LatLng(62,16);
+        myZoom = 15;
         myTitle = items[i][0];		
 		showMap(mapCanvas, myLatLng, centerLatLng, myZoom, myTitle)
    
