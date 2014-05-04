@@ -24,6 +24,7 @@ title: Fastighet
   
    z = [ "{{ obj.title }}", "{{obj.url}}"
    , "{{site.data.geocodes[forloop.index].lat }}", "{{site.data.geocodes[forloop.index].lng }}" 
+   , "{{ obj.imgurl }}"
    ]
    items.push(z);
  {% endfor %}
@@ -172,8 +173,9 @@ maps: sverige, regionalt, lokalt, street view
 	      initialize();
     	  //google.maps.event.addDomListener(window, 'load', initialize);
       
-      	alert("hej");	
-		$("#obj-img").attr('src', items[i][1] +'?'+Math.random() );
+      	//alert("hej");	
+		$("#obj-img").attr('src', items[i][4] ); // +'?'+Math.random() );
+		
     });
       
     </script>
