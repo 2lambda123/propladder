@@ -61,6 +61,8 @@ var i = window.location.search.replace( "?", "" );
         </div>
     </article>
 </section>
+
+
 <!--
 <section id="mainContent" class="grid_10">
     <article>
@@ -164,13 +166,14 @@ maps: sverige, regionalt, lokalt, street view
       
       
       
+      $( document ).ready(function() {
       
       
+	      initialize();
+    	  //google.maps.event.addDomListener(window, 'load', initialize);
       
-      initialize();
-      //google.maps.event.addDomListener(window, 'load', initialize);
-      
-      
-      $("#obj-img").attr('src', items[i][1]);
+      	alert("hej");	
+		$("#obj-img").attr('src', items[i][1]);
+    });
       
     </script>
