@@ -24,7 +24,7 @@ title: Fastighet
   
    z = [ "{{ obj.title }}", "{{obj.url}}"
    , "{{site.data.geocodes[forloop.index].lat }}", "{{site.data.geocodes[forloop.index].lng }}" 
-   , "{{ obj.imgurl }}"
+   , "{{ obj.imgurl }}" , "{{ obj.marketprice }}"
    ]
    items.push(z);
  {% endfor %}
@@ -54,10 +54,10 @@ var i = window.location.search.replace( "?", "" );
             <figure><img id="obj-img" width="161" height="132"></figure>
             <h3><a id="obj-url">bla</a></h3>
             <p>
-            Diffvärde: {{fynd.valuediff}}  <br/>
-            Pris: {{fynd.marketvalue }} <br/>
+            Pris: <span id="obj-price">x</span> <br/>            
             Taxeringsvärde: {{fynd.taxvalue}} <br/>
-                       </p>
+            Diffvärde: {{fynd.valuediff}}  <br/>
+            </p>
             
         </div>
     </article>
@@ -177,6 +177,7 @@ maps: sverige, regionalt, lokalt, street view
 		$("#obj-img").attr('src', items[i][4] ); // +'?'+Math.random() );
 		$("#obj-url").attr('href', items[i][1] );
 		$("#obj-url").get(0).lastChild.nodeValue =  items[i][0];
+		$("#obj-price").get(0).lastChild.nodeValue =  items[i][5];
 		
     });
       
