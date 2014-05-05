@@ -37,21 +37,11 @@ var i = window.location.search.replace( "?", "" );
 
 </script>
 
-<div style="width: 100%; display: table;">
-    <div style="display: table-row">
-
-		<div id="swe_map_canvas" style="width: 100px;height: 200px;background-color: #CCC; display: table-cell;"></div>
-		<div id="reg_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
-		<div id="loc_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
-		<div id="street_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
-
-	</div>
-</div>
 
 <section id="mainContent" class="grid_10">
     <article>
         <div class="wrapper">
-            <figure><img id="obj-img" width="161" height="132"></figure>
+            <figure><img id="obj-img" ></figure>
             <h3><a id="obj-url">bla</a></h3>
             <p>
             Pris: <span id="obj-price">x</span> <br/>            
@@ -62,6 +52,7 @@ var i = window.location.search.replace( "?", "" );
         </div>
     </article>
 </section>
+
 
 
 <!--
@@ -103,6 +94,18 @@ var i = window.location.search.replace( "?", "" );
 maps: sverige, regionalt, lokalt, street view
 
 -->
+
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+
+		<div id="swe_map_canvas" style="width: 100px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+		<div id="reg_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+		<div id="loc_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+		<div id="street_map_canvas" style="width: 200px;height: 200px;background-color: #CCC; display: table-cell;"></div>
+
+	</div>
+</div>
+
 
 	<script>
       function initialize() {
