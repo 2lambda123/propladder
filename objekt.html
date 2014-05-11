@@ -20,7 +20,7 @@ title: Fastighet
  var items = [];
  var z;
  
- {% for obj in site.data.objects_by_date %}
+ {% for obj in site.data.objects_by_diffvalue %}
   
    z = [ "{{ obj.title }}", "{{obj.url}}"
    , "{{site.data.geocodes[forloop.index].lat }}", "{{site.data.geocodes[forloop.index].lng }}" 
