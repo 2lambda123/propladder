@@ -1,3 +1,13 @@
+- title: Jönköping ,  Spexeryd 11 ,  Tenhult
+  date: 2014-05-27
+  marketvalue: 325,000 kr
+  taxvalue: 1,239,000 kr
+  url: http://www.kronofogden.se/32332.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132639a/1397654634916/F-2689-13+A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -914,000 kr
+
 - title: Dalsjöfors ,  Stationsvägen 4 ,  Dalsjöfors
   date: 2014-05-14
   marketvalue: 1,000,000 kr
@@ -7,6 +17,16 @@
   imgwidth: 
   imgheight: 
   valuediff: -476,000 kr
+
+- title: Öja ,  Öja Storegården 2 ,  Vartofta
+  date: 2014-06-03
+  marketvalue: 50,000 kr
+  taxvalue: 513,000 kr
+  url: http://www.kronofogden.se/32431.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326d68/1398318371847/F-378-14A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -463,000 kr
 
 - title: Jonslund ,  Alvägen 1A-B ,  Nossebro
   date: 2014-05-13
@@ -18,35 +38,115 @@
   imgheight: 
   valuediff: -405,000 kr
 
-- title: Glommen ,  Glumstensvägen 54 ,  Glommen
-  date: 2014-05-07
-  marketvalue: 1,650,000 kr
-  taxvalue: 1,858,000 kr
-  url: http://www.kronofogden.se/31281.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132e96/1395837131648/F-1859-13.jpg
+- title: Gigered ,  Gigered 3 ,  Öxabäck
+  date: 2014-05-28
+  marketvalue: 500,000 kr
+  taxvalue: 874,000 kr
+  url: http://www.kronofogden.se/32351.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326583/1397729604213/F-428-14+A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: -208,000 kr
+  valuediff: -374,000 kr
 
-- title: Arbrå ,  Västra Åsgatan (12), Åsgränd 1 ,  Arbrå
-  date: 2014-04-29
+- title: Axvall ,  Skärv Lund ,  Axvall
+  date: 2014-06-03
+  marketvalue: 75,000 kr
+  taxvalue: 447,000 kr
+  url: http://www.kronofogden.se/32435.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326dbd/1398324363702/F-3087-13A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -372,000 kr
+
+- title: Rydöbruk ,  Nissadalsvägen 72 ,  Rydöbruk
+  date: 2014-06-04
+  marketvalue: 100,000 kr
+  taxvalue: 442,000 kr
+  url: http://www.kronofogden.se/32438.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326e1a/1398331650248/F-495-14A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -342,000 kr
+
+- title: Eskilstuna ,  Björkbacken 5 ,  Eskilstuna
+  date: 2014-05-21
+  marketvalue: 350,000 kr
+  taxvalue: 635,000 kr
+  url: http://www.kronofogden.se/32440.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326e71/1398338500108/F-555-14-04_fritidshus_bild1.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -285,000 kr
+
+- title: Sågaretorpet ,  Sågaretorpet Karlsro 1 ,  Brandstorp
+  date: 2014-05-20
+  marketvalue: 400,000 kr
+  taxvalue: 649,000 kr
+  url: http://www.kronofogden.se/32095.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801324c98/1397112823558/F-278-14.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -249,000 kr
+
+- title: Fullösa ,  Fullösa Hultängen ,  Götene
+  date: 2014-06-03
+  marketvalue: 175,000 kr
+  taxvalue: 402,000 kr
+  url: http://www.kronofogden.se/32384.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d478013268e3/1398169052222/F-2669-13A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -227,000 kr
+
+- title: Olseryd ,  Olseryd 14 ,  Nässjö
+  date: 2014-05-20
+  marketvalue: 400,000 kr
+  taxvalue: 607,000 kr
+  url: http://www.kronofogden.se/32127.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801324f2c/1397126202851/F-286-14A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -207,000 kr
+
+- title: Lovene ,  Lovene Ekedalsslätten 2 ,  Lidköping
+  date: 2014-05-20
+  marketvalue: 150,000 kr
+  taxvalue: 354,000 kr
+  url: http://www.kronofogden.se/32074.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801324b0c/1397050294981/F-273-14A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -204,000 kr
+
+- title: Bruzaholm ,  Kållstorp Strandhem 1 ,  Bruzaholm
+  date: 2014-05-20
   marketvalue: 250,000 kr
-  taxvalue: 417,000 kr
-  url: http://www.kronofogden.se/31945.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323fe0/1396598782583/F+3494_13_5.jpg
+  taxvalue: 399,000 kr
+  url: http://www.kronofogden.se/32093.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801324c59/1397109532924/F-254-14A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: -167,000 kr
+  valuediff: -149,000 kr
 
-- title: Högsäter ,  Lerdals Stom 4 ,  Högsäter
-  date: 2014-04-29
-  marketvalue: 850,000 kr
-  taxvalue: 957,000 kr
-  url: http://www.kronofogden.se/31262.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132d20/1395820544283/F-114-13.jpg
+- title: Marteröd ,  Marteröd 126 ,  Uddevalla
+  date: 2014-06-04
+  marketvalue: 800,000 kr
+  taxvalue: 934,000 kr
+  url: http://www.kronofogden.se/32699.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801328581/1398759461002/F-463-14A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: -107,000 kr
+  valuediff: -134,000 kr
+
+- title: Lundgaården ,  Lundagården 1 ,  Vårgårda
+  date: 2014-06-04
+  marketvalue: 350,000 kr
+  taxvalue: 443,000 kr
+  url: http://www.kronofogden.se/32684.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801328324/1398753850273/F-468-14A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: -93,000 kr
 
 - title: Löndala ,  Löndala 108 ,  Perstorp
   date: 2014-05-15
@@ -68,16 +168,6 @@
   imgheight: 
   valuediff: -69,000 kr
 
-- title: Vallsta ,  Vallsta Riksväg 25 ,  Vallsta
-  date: 2014-04-29
-  marketvalue: 300,000 kr
-  taxvalue: 360,000 kr
-  url: http://www.kronofogden.se/31929.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323d0b/1396524080017/F+406_14_4.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: -60,000 kr
-
 - title: Gillsby ,  2 mil nordost om Borgholm ,  Köpingsvik
   date: 2014-05-13
   marketvalue: 1,100,000 kr
@@ -88,135 +178,125 @@
   imgheight: 
   valuediff: -44,000 kr
 
-- title: Burseryd ,  Sjövägen 2 ,  Burseryd
-  date: 2014-04-29
-  marketvalue: 300,000 kr
-  taxvalue: 326,000 kr
-  url: http://www.kronofogden.se/31209.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d478013284f/1395389281132/F-47-14A.jpg
+- title: Sollefteå ,  Sörgårdarna 218 ,  Sollefteå
+  date: 2014-05-20
+  marketvalue: 70,000 kr
+  taxvalue: 97,000 kr
+  url: http://www.kronofogden.se/32463.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801327107/1398406136074/F-598-14-B.klar.jpg
   imgwidth: 
   imgheight: 
-  valuediff: -26,000 kr
+  valuediff: -27,000 kr
 
-- title: Norrtälje ,  Marsbacksvägen 64 ,  Vätö
-  date: 2014-04-22
-  marketvalue: 400,000 kr
-  taxvalue: 425,000 kr
-  url: http://www.kronofogden.se/31238.html
-  imgurl: http://www.kronofogden.se/images/200.1c1a126b144d4780132afd/1395667723650/F-195-14-01_karta2.jpg
+- title: Lidköping ,  Lovene Eriksgården ,  Lidköping
+  date: 2014-06-03
+  marketvalue: 1,900,000 kr
+  taxvalue: 1,891,000 kr
+  url: http://www.kronofogden.se/32434.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326d9a/1398323078492/F-637-13A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: -25,000 kr
+  valuediff: 9,000 kr
 
-- title: Vallvik ,  Lönnvägen 37 ,  Vallvik
-  date: 2014-04-29
-  marketvalue: 275,000 kr
-  taxvalue: 276,000 kr
-  url: http://www.kronofogden.se/31940.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323dea/1396534014176/F+3356_13_3.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: -1,000 kr
-
-- title: Varva/Hille ,  Gävle
-  date: 2014-04-24
-  marketvalue: 225,000 kr
-  taxvalue: 224,000 kr
-  url: http://www.kronofogden.se/27179.html
-  imgurl: http://www.kronofogden.se/images/18.58faa85b14297e0273e2def/1386584303647/F+3008_13_3.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: 1,000 kr
-
-- title: Dorotea ,  Långselevägen 21 ,  Högland
-  date: 2014-05-07
-  marketvalue: 30,000 kr
-  taxvalue: 22,000 kr
-  url: http://www.kronofogden.se/31917.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323bc8/1396510404731/F-400-14+A.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: 8,000 kr
-
-- title: Kilafors ,  Stationsgatan 8, Hambogatan 12 ,  Kilafors
-  date: 2014-04-29
-  marketvalue: 525,000 kr
-  taxvalue: 515,000 kr
-  url: http://www.kronofogden.se/31936.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323d6d/1396527303574/F+2173_13_5.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: 10,000 kr
-
-- title: Stallarholmen ,  Toresund Poststugan ,  Mariefred
-  date: 2014-04-23
+- title: Arboga ,  Heijkenskjöldsgatan 12 ,  Arboga
+  date: 2014-05-22
   marketvalue: 650,000 kr
-  taxvalue: 626,000 kr
-  url: http://www.kronofogden.se/31263.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132d73/1395823143864/F-34-14-04_bostadshus_bild1.jpg
+  taxvalue: 629,000 kr
+  url: http://www.kronofogden.se/31073.html
+  imgurl: http://www.kronofogden.se/images/200.1c1a126b144d47801327769/1398664490277/F-3627-13-19_karta2.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 24,000 kr
+  valuediff: 21,000 kr
 
-- title: Gräsö ,  Hummelbäck 224-226 ,  Gräsö
-  date: 2014-04-29
+- title: Stenkullen ,  Stenkullenvägen 9 ,  Stenkullen
+  date: 2014-06-04
+  marketvalue: 1,600,000 kr
+  taxvalue: 1,567,000 kr
+  url: http://www.kronofogden.se/32682.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d478013282ab/1398750922515/F-436-14+A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 33,000 kr
+
+- title: Örnsköldsvik ,  Stenvägen 28 ,  Domsjö
+  date: 2014-05-20
+  marketvalue: 950,000 kr
+  taxvalue: 891,000 kr
+  url: http://www.kronofogden.se/32458.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801327068/1398403306868/F-481-14-B.klar.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 59,000 kr
+
+- title: Åseda ,   Nordost om Åseda ,  Åseda
+  date: 2014-05-20
+  marketvalue: 2,500,000 kr
+  taxvalue: 2,435,000 kr
+  url: http://www.kronofogden.se/32391.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326990/1398173798781/Foto+Uppvidinge+Bistockskulla+1_2+%28F-2849-13-07%29.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 65,000 kr
+
+- title: Hillared ,  Ringvägen 17 ,  Hillared
+  date: 2014-05-28
+  marketvalue: 580,000 kr
+  taxvalue: 509,000 kr
+  url: http://www.kronofogden.se/32336.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132641e/1397717250428/F-334-14C.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 71,000 kr
+
+- title: Storvreta ,  Vattgårdsvägen 35 ,  Storvreta
+  date: 2014-05-14
+  marketvalue: 1,750,000 kr
+  taxvalue: 1,668,000 kr
+  url: http://www.kronofogden.se/32077.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801325208/1397135819055/F-591-14-03_bild1.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 82,000 kr
+
+- title: Gislaved ,  Tallgatan 7 ,  Smålandsstenar
+  date: 2014-05-27
   marketvalue: 700,000 kr
-  taxvalue: 651,000 kr
-  url: http://www.kronofogden.se/31933.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323d40/1396526045797/F-117-14-03_g%C3%A4ststuga_bild3.jpg
+  taxvalue: 550,000 kr
+  url: http://www.kronofogden.se/32311.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d478013261c4/1397640779014/F-677-14.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 49,000 kr
+  valuediff: 150,000 kr
 
-- title: Tärnsjö ,  Bro 226 ,  Tärnsjö
-  date: 2014-04-29
-  marketvalue: 250,000 kr
-  taxvalue: 167,000 kr
-  url: http://www.kronofogden.se/31938.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323d85/1396529795250/F-342-14-03_fritidshus_bild1.jpg
+- title: Nödinge ,  Hallbackevägen 38 ,  Nödinge
+  date: 2014-05-28
+  marketvalue: 1,300,000 kr
+  taxvalue: 1,144,000 kr
+  url: http://www.kronofogden.se/30435.html
+  imgurl: http://www.kronofogden.se/images/18.3ad14b751432a2e49d1d6f4/1394017356470/F-3838-13A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 83,000 kr
+  valuediff: 156,000 kr
 
-- title: Öre ,  adress saknas ,  Nordmaling
-  date: 2014-05-07
-  marketvalue: 840,000 kr
-  taxvalue: 704,000 kr
-  url: http://www.kronofogden.se/31892.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323b00/1396443753338/F-161-14.klar.jpg
+- title: Sandbäck ,  Kyrkås Sandbäck 504 ,  Nossebro
+  date: 2014-05-20
+  marketvalue: 1,800,000 kr
+  taxvalue: 1,624,000 kr
+  url: http://www.kronofogden.se/29450.html
+  imgurl: http://www.kronofogden.se/images/18.3ad14b751432a2e49d19429/1392728221862/F-2918-13A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 136,000 kr
+  valuediff: 176,000 kr
 
-- title: Isaks ,  Bro 224 ,  Tärnsjö
-  date: 2014-04-29
-  marketvalue: 450,000 kr
-  taxvalue: 307,000 kr
-  url: http://www.kronofogden.se/31939.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323dd6/1397473888877/F-341-14-03_garage-stall_bild1.jpg
+- title: Norrängen ,  Grännavägen 50 ,  Huskvarna
+  date: 2014-05-27
+  marketvalue: 180,000 kr
+  taxvalue: 0 kr
+  url: http://www.kronofogden.se/32432.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326d83/1398320370044/F-70-14.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 143,000 kr
-
-- title: Mark ,  Notariegatan 10 ,  Skene
-  date: 2014-04-29
-  marketvalue: 1,250,000 kr
-  taxvalue: 1,013,000 kr
-  url: http://www.kronofogden.se/31283.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132ebf/1395837650439/F-146-14A.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: 237,000 kr
-
-- title: Ryd ,  Leopolds Gata 13 ,  Linköping
-  date: 2014-05-07
-  marketvalue: 2,300,000 kr
-  taxvalue: 1,992,000 kr
-  url: http://www.kronofogden.se/31807.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132349e/1396342924947/F-19-14A.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: 308,000 kr
+  valuediff: 180,000 kr
 
 - title: Hulta ,  Krusmyntagången 9 ,  Borås
   date: 2014-05-14
@@ -228,75 +308,85 @@
   imgheight: 
   valuediff: 338,000 kr
 
-- title: Sköllersta ,  Tallvägen 8 ,  Sköllersta
-  date: 2014-05-06
-  marketvalue: 1,200,000 kr
-  taxvalue: 716,000 kr
-  url: http://www.kronofogden.se/32004.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801324504/1396947021543/F-449-14-18_bostadshus_bild1.jpg
+- title: Sollefteå ,  Myre 155 ,  Näsåker
+  date: 2014-05-20
+  marketvalue: 500,000 kr
+  taxvalue: 148,000 kr
+  url: http://www.kronofogden.se/31293.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132fb0/1395904017505/F-3662-13-F.klar.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 484,000 kr
+  valuediff: 352,000 kr
 
-- title: Laholm ,  Ramshallsvägen 25 ,  Veinge
-  date: 2014-05-07
-  marketvalue: 1,400,000 kr
-  taxvalue: 889,000 kr
-  url: http://www.kronofogden.se/31902.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323b16/1396445053092/F-25-14F.jpg
+- title: Ingbo ,  Vallby 250 ,  Tierp
+  date: 2014-05-14
+  marketvalue: 800,000 kr
+  taxvalue: 408,000 kr
+  url: http://www.kronofogden.se/32194.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801325699/1397218804183/F-391-14-03_bostadshus_bild1.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 511,000 kr
+  valuediff: 392,000 kr
 
-- title: Vidingsjö ,  Grengatan 129 ,  Linköping
-  date: 2014-05-07
-  marketvalue: 2,300,000 kr
-  taxvalue: 1,774,000 kr
-  url: http://www.kronofogden.se/31823.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323567/1396345566016/F-3401-13.jpg
+- title: Robertsfors ,  Bobacken 239 ,  Bygdeå
+  date: 2014-05-27
+  marketvalue: 700,000 kr
+  taxvalue: 276,000 kr
+  url: http://www.kronofogden.se/32504.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801329d3a/1399272785651/F-425-14-H.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 526,000 kr
+  valuediff: 424,000 kr
 
-- title: Sköllersta ,  Kalvskalla Stenkulla 415 ,  Sköllersta
-  date: 2014-05-06
-  marketvalue: 1,500,000 kr
-  taxvalue: 852,000 kr
-  url: http://www.kronofogden.se/30324.html
-  imgurl: http://www.kronofogden.se/images/200.1c1a126b144d478013243ac/1396877676428/F-3486-13-18_karta2.jpg
+- title: Svartarp ,  Hultanäs 26-28 ,  Åseda
+  date: 2014-05-20
+  marketvalue: 1,100,000 kr
+  taxvalue: 612,000 kr
+  url: http://www.kronofogden.se/32131.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801324f87/1397127667679/F-459-14A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 648,000 kr
+  valuediff: 488,000 kr
 
-- title: Strandkärr ,  Strandkärr 30 ,  Stenungsund
-  date: 2014-04-23
-  marketvalue: 2,500,000 kr
-  taxvalue: 1,449,000 kr
-  url: http://www.kronofogden.se/31054.html
-  imgurl: http://www.kronofogden.se/images/18.3ad14b751432a2e49d110852/1394780159366/F-53-14A.jpg
+- title: Habo ,  Risbro 30 ,  Habo
+  date: 2014-05-27
+  marketvalue: 1,550,000 kr
+  taxvalue: 990,000 kr
+  url: http://www.kronofogden.se/32323.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d478013262c1/1397649474586/F-675-14.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 1,051,000 kr
+  valuediff: 560,000 kr
 
-- title: Hästeryr ,  Dals-Ed
-  date: 2014-05-07
+- title: Örnsköldsvik ,  Skagshamn 184 ,  Arnäsvall
+  date: 2014-05-20
+  marketvalue: 1,300,000 kr
+  taxvalue: 601,000 kr
+  url: http://www.kronofogden.se/31296.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132ff8/1395913550003/F-3697-13-B.klar.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 699,000 kr
+
+- title: Krokslätt ,  Dalgångsgatan 74 ,  Mölndal
+  date: 2014-05-28
+  marketvalue: 4,600,000 kr
+  taxvalue: 3,449,000 kr
+  url: http://www.kronofogden.se/32342.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326490/1397724516577/F-368-14A.jpg
+  imgwidth: 
+  imgheight: 
+  valuediff: 1,151,000 kr
+
+- title: Sörmjöle ,  Bovikenvägen 17, (16), (18) ,  Umeå
+  date: 2014-05-27
   marketvalue: 2,600,000 kr
-  taxvalue: 1,246,000 kr
-  url: http://www.kronofogden.se/31935.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801323faa/1396597593980/F-235-14+A.jpg
+  taxvalue: 1,447,000 kr
+  url: http://www.kronofogden.se/32550.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801327a29/1398676414760/F-2428-13-G.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 1,354,000 kr
-
-- title: Obbola ,  Vitskärsvägen 30 ,  Obbola
-  date: 2014-05-07
-  marketvalue: 2,400,000 kr
-  taxvalue: 777,000 kr
-  url: http://www.kronofogden.se/23589.html
-  imgurl: http://www.kronofogden.se/images/18.52cde2e013f42b026a1ed27/1377756707473/F-1807-13-E.jpg
-  imgwidth: 
-  imgheight: 
-  valuediff: 1,623,000 kr
+  valuediff: 1,153,000 kr
 
 - title: Lidköping ,  Fästaudden 32 ,  Lidköping
   date: 2014-05-13
@@ -308,23 +398,23 @@
   imgheight: 
   valuediff: 2,000,000 kr
 
-- title: Skintebo ,  Nyängsvägen 2B ,  Billdal
-  date: 2014-04-29
-  marketvalue: 7,500,000 kr
-  taxvalue: 4,672,000 kr
-  url: http://www.kronofogden.se/31274.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d4780132de9/1395824811901/F-3516-13A.jpg
+- title: Björneröd ,  Björneröds gård ,  Strömstad
+  date: 2014-05-28
+  marketvalue: 11,000,000 kr
+  taxvalue: 7,287,000 kr
+  url: http://www.kronofogden.se/32441.html
+  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d47801326e8c/1398338930572/F-3049-13A.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 2,828,000 kr
+  valuediff: 3,713,000 kr
 
-- title: Högsbo ,  Amalia Jönssons Gata 23-27 ,  Västra Frölunda
-  date: 2014-05-07
-  marketvalue: 14,000,000 kr
-  taxvalue: 10,567,000 kr
-  url: http://www.kronofogden.se/32016.html
-  imgurl: http://www.kronofogden.se/images/18.1c1a126b144d478013245c9/1396957457420/F-1655-13D.jpg
+- title: Rytterne ,  Tidö 19 ,  Västerås
+  date: 2014-05-22
+  marketvalue: 7,500,000 kr
+  taxvalue: 2,628,000 kr
+  url: http://www.kronofogden.se/31074.html
+  imgurl: http://www.kronofogden.se/images/18.3ad14b751432a2e49d110a70/1394800110562/F-3630-13-19_bostadshus_bild1.jpg
   imgwidth: 
   imgheight: 
-  valuediff: 3,433,000 kr
+  valuediff: 4,872,000 kr
 
